@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Images</title>
+</head>
+<body>
+
+<h2>My Profile</h2>
+<a href="myprofile.html">
+    <img src="myphoto.jpg" width="150" height="150" alt="My Image">
+</a>
+
+<h2>Friend Profile</h2>
+<a href="friendprofile.html">
+    <img src="friendphoto.jpg" width="150" height="150" alt="Friend Image">
+</a>
+
+</body>
+</html>

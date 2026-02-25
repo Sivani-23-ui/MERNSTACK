@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+    Name:
+    <input type="text"><br><br>
+
+    Password:
+    <input type="password"><br><br>
+
+    Mobile Number:
+    <input type="number"><br><br>
+
+    Date of Birth:
+    <input type="date"><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
