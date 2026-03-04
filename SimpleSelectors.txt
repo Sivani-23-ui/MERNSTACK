@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p { color: blue; }
+#id1 { color: red; }
+.cls { color: green; }
+h1, h2 { color: purple; }
+* { font-family: Arial; }
+</style>
+</head>
+<body>
+
+<h1>Heading</h1>
+<p>Element Selector</p>
+<p id="id1">ID Selector</p>
+<p class="cls">Class Selector</p>
+
+</body>
+</html>
