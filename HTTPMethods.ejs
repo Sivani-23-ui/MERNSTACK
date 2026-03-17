@@ -1,0 +1,26 @@
+const ex = require("express")
+const app = ex()
+
+app.use(ex.json())
+
+let d = []
+
+// POST - add data
+app.post("/add",(req,res)=>{
+    d.push(req.body)
+    res.send("Data Added")
+})
+
+// GET - retrieve data
+app.get("/get",(req,res)=>{
+    res.send(d)
+})
+
+// DELETE - delete data
+app.delete("/del/:i",(req,res)=>{
+    let i = req.params.i
+    d.splice(i,1)
+    res.send("Data Deleted")
+})
+
+app.listen(3000,()=>console.log("Run"))

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .hex { color: #ff0000; }
+        .rgb { color: rgb(0, 0, 255); }
+    </style>
+</head>
+<body>
+
+<p style="color: green;">Named Color</p>
+<p class="hex">Hex Color</p>
+<p class="rgb">RGB Color</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Semantic Tags</title>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+</header>
+
+<nav>
+    Home | About | Contact
+</nav>
+
+<main>
+    <section>
+        <article>
+            <h2>Article Title</h2>
+            <p>This is an article.</p>
+        </article>
+    </section>
+
+    <aside>
+        <p>This is an aside section</p>
+    </aside>
+
+    <figure>
+        <img src="image.jpg" width="150">
+        <figcaption>Sample Image</figcaption>
+    </figure>
+
+    <div>
+        <span>This is span text</span>
+    </div>
+</main>
+
+<footer>
+    <p>Copyright © 2026</p>
+</footer>
+
+</body>
+</html>
